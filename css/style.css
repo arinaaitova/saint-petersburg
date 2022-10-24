@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  
+  display: flex;
+  position: absolute;
+max-width: 341px;
+height: 603px;
+left: 16px;
+top: 27px;
+
+border: 0.3px solid #828282;
+border-radius: 16px; /* или mobile-cards */
+}
+
+.tour-image { 
+position: relative;
+left: 0px;
+top: 0px;
+border-radius: 16px 16px 0px 0px;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+font-size: 62.5%;
+  }
+ 
+.yellow-label {
+  position: absolute;
+  width: 99px;
+  height: 35px;
+  left: 0px;
+  top: 40px;
+  background: #FED74B;
+  z-index: 1;  
+  
+  display: flex;
+}
+  
+.label {
+  
+  font: normal 600 12px/ 20px 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  
+  
+  color: #3E3E3E;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.tour-time-container {
+  display: inline;
+}
+.tour-length-image {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  /* margin: 262px 331px 1550px 28px;  */
+  padding-left: 8px;
+
+ 
+}
+
+.tour-length-time {
+position: absolute;
+width: 108px;
+height: 23px;
+left: 53px;
+top: 260px;
+font: normal 400 12px/ 20px 'Open Sans', sans-serif;
+color: #9E9E9E;
+
+}
+
